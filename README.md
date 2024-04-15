@@ -5,6 +5,9 @@ Video denoiser là một công cụ n được sử dụng để giảm thiểu 
 
 Để sử dụng ứng dụng, bạn cần Python, PyQt5, FFmpeg, và NVIDIA GPU with CUDA trên hệ thống máy tính.
 # Install qdarkstyle, PyQt5 and FFmpeg
+
 pip install qdarkstyle
+
 pip install PyQt5
+
 pip install ffmpeg-python
