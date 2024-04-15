@@ -1,4 +1,10 @@
 # Video Denoiser
-This application is a PyQt5-based Video Denoiser that utilizes FFmpeg with CUDA hardware acceleration to denoise video files. The app allows the user to select one or multiple video files, specify the denoise strength, and start the denoising process.
 
-"To use the Video Denoiser application, you need to have Python, PyQt5, FFmpeg, and an NVIDIA GPU with CUDA support installed on your computer."
+Video denoiser là một công cụ n được sử dụng để giảm thiểu nhiễu từ video, làm cho video trở nên sạch sẽ và rõ ràng hơn. Nhiễu trong video có thể xuất hiện dưới nhiều hình thức, bao gồm nhiễu do ánh sáng yếu, nhiễu màu, nhiễu do cảm biến hoặc nhiễu do quá trình nén.
+Ứng dụng cho phép người dùng chọn một hoặc nhiều tệp video, chỉ định mức độ làm giảm nhiễu, và bắt đầu quá trình làm sạch.
+
+Để sử dụng ứng dụng, bạn cần Python, PyQt5, FFmpeg, và NVIDIA GPU with CUDA trên hệ thống máy tính.
+# Install qdarkstyle, PyQt5 and FFmpeg
+pip install qdarkstyle
+pip install PyQt5
+pip install ffmpeg-python
